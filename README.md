@@ -7,7 +7,7 @@
 ## 2. Preprocessing
 - Loaded dataset using fetch_ucirepo 
 - No missing values, no irrelevant columns
-- caled with Standard Scaler
+- Scaled with Standard Scaler
 ## 3. Part 2 — Algorithm Comparison
 | Algorithm | Mean Accuracy | Std |
 |-----------|---------------|-----|
