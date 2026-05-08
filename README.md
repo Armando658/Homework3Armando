@@ -9,12 +9,12 @@
 - No missing values, no irrelevant columns
 - Scaled with Standard Scaler
 ## 3. Part 2 — Algorithm Comparison
-|     Algorithm     | Mean Accuracy | Std |
-| Linear Classifier |     0.8615    |0.0388|
-|Logistic Regression| 0.8690|0.0419|
-|        KNN        | 0.8457|0.0418|
-|    Gaussian NB    | 0.9046|0.0353|
-|   Neural Network  | 0.9823|0.0164|
+|     Algorithm     | Mean Accuracy |  Std  |
+| Linear Classifier |     0.8615    | 0.0388|
+|Logistic Regression|     0.8690    | 0.0419|
+|        KNN        |     0.8457    | 0.0418|
+|    Gaussian NB    |     0.9046    | 0.0353|
+|   Neural Network  |     0.9823    | 0.0164|
 
 ## 4. Part 3 — Feature Selection
 - Search method and justification
