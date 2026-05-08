@@ -18,12 +18,18 @@
 
 ## 4. Part 3 — Feature Selection
 - Search method and justification
-| Algorithm | Best Feature Subset | Mean Accuracy | Std |
-|-----------|--------------------|---------------|-----|
+|     Algorithm     |                    Best Feature Subset                 | Mean Accuracy |  Std  |
+| Linear Classifier |Left Distance, Left Weight, Right Distance, Right Weight|     0.8615    | 0.0388|
+|Logistic Regression|Left Distance, Left Weight, Right Distance, Right Weight|     0.8690    | 0.0419|
+|        KNN        |Left Distance, Left Weight, Right Distance, Right Weight|     0.8457    | 0.0418|
+|    Gaussian NB    |Left Distance, Left Weight, Right Distance, Right Weight|     0.9046    | 0.0353|
+|   Neural Network  |Left Distance, Left Weight, Right Distance, Right Weight|     0.9823    | 0.0164|
 ## 5. Discussion
 - Part 2 vs Part 3 comparison
 - Per-algorithm observations
 - Limitations and ideas for improvement
 ## 6. Reproduction
-- Python version, key library versions : numpy, pandas, scikit-learn, ucimlrepo
+- Python version:  3.14.3
+- key library versions : numpy, pandas, scikit-learn, ucimlrepo
 - Run command : Python Homework3Armando.py
+- random_state = 42
